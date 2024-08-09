@@ -1,0 +1,197 @@
+.carousel-item{
+    height: 560px;
+
+}
+.c-img{
+    height: 100%;
+    object-fit: cover;
+}
+.hov:hover{
+    color: #0dcaf0;
+}
+.navlink.active{
+   text-decoration: underline #0dcaf0;
+   text-underline-offset: 0.5rem;
+}
+.nav-link {
+  color: rgb(200, 200, 200); /* Default color */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+  position: relative; /* Required for positioning the border */
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: white; /* Color when hovered or active */
+}
+
+.nav-link.active::after {
+  content: ''; /* Empty content to create the pseudo-element */
+  display: block; /* Make it a block element */
+  width: 100%; /* Full width of the link */
+  height: 2px; /* Height of the border */
+  background-color: white; /* Color of the border */
+  position: absolute; /* Position relative to the link */
+  bottom: 0; /* Position at the bottom */
+  left: 0; /* Align to the left */
+}
+
+
+.accordion-button.collapsed{
+    border: 1px solid lightgray;
+}
+#trans-img{
+    background-image: url(IMG_20230710_112638.jpg);
+    width: 100%;
+    justify-content: center;
+}
+.form-control,.btn{
+    border: 1px solid white;
+}
+
+.card-img:hover{
+    background-color: darkgrey;
+}
+#trans-img1{
+    background-image: url(reviews-bg.jpg);
+    height: 100%;
+
+}
+
+.content{
+    padding-top: 50%;
+}
+.accordion-button{
+    position: relative;
+    padding-left: 2.5rem;
+}
+.accordion-button::before{
+    content: '\f054';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 700;
+    position: absolute;
+    left: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    color: #000;
+}
+.accordion-button::after{
+    display: none;
+}
+
+position-relative {
+    position: relative;
+   
+  }
+   
+  .tag {
+    position: absolute;
+    top: 0;
+    left: -50px;
+    transform: rotate(-45deg);
+    background-color: hsl(197, 87%, 63%);
+    color: white;
+    padding: 4px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    white-space: nowrap;
+    text-align: center;
+  }
+  
+
+
+
+
+  /*------------------------------------------*/
+
+  .progress-bar {
+    display: flex;
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    background: radial-gradient(closest-side, #212529 79%, transparent 80% 100%), conic-gradient(rgb(70, 206, 216) 90%, rgb(243, 243, 243) 0);
+    margin-right: 15px;
+  }
+   
+  .progress-bar::before {
+    content: "90%";
+    font-weight: 900;
+    font-size: xx-large;
+    color: #fff;
+  }
+   
+  .bar2 {
+    display: flex;
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    background: radial-gradient(closest-side, #212529 79%, transparent 80% 100%), conic-gradient(rgb(70, 206, 216) 85%, rgb(243, 243, 243) 0);
+    margin-right: 15px;
+  }
+   
+  .bar2::before {
+    content: "85%";
+    font-weight: 900;
+    font-size: xx-large;
+    color: #fff;
+  }
+   
+  .bar3 {
+    display: flex;
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    background: radial-gradient(closest-side, #212529 79%, transparent 80% 100%), conic-gradient(rgb(70, 206, 216) 75%, rgb(243, 243, 243) 0);
+    margin-right: 15px;
+  }
+   
+  .bar3::before {
+    content: "85%";
+    font-weight: 900;
+    font-size: xx-large;
+    color: #fff;
+  }
+   
+  .bar4 {
+    display: flex;
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    background: radial-gradient(closest-side, #212529 79%, transparent 80% 100%), conic-gradient(rgb(70, 206, 216) 65%, rgb(243, 243, 243) 0);
+    margin-right: 15px;
+   
+  }
+   
+  .bar4::before {
+    content: "65%";
+    font-weight: 900;
+    font-size: xx-large;
+    color: #fff;
+  }
+
+
+
+
+
+
+
+/* @media screen and (min-width:200px)and(max-width:900px){
+
+    .progress-bar{
+        margin-left: 6rem!important;
+    }
+
+} */
+
+/* @media screen and (min-width:200px) and (max-width:600px){
+    .small-carousal{
+        
+        margin-top: -5rem!important;
+        font-size: small!important;
+
+    }
+    .blue{
+        text-align: center;
+    }
+
+} */ 
